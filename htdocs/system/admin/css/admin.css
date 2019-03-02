@@ -1162,6 +1162,10 @@ body.page-publish .buttons input {
 	float: left;
 }
 
+.dashboard .latest-comments-module .item span.comments {
+	float: right;
+}
+
 .dashboard .latest-comments-module .titleanddate {
 	margin-top: 5px;
 	line-height: 16px;

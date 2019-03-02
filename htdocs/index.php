@@ -19,7 +19,7 @@ if ( !version_compare( PHP_VERSION, '5.2.0', '>=' ) ) {
 }
 
 // Increase the error reporting level: E_ALL, E_NOTICE, and E_STRICT
-error_reporting( E_ALL | E_NOTICE | E_STRICT );
+error_reporting( E_STRICT );
 
 // set a default timezone for PHP. Habari will base off of this later on
 date_default_timezone_set( 'UTC' );

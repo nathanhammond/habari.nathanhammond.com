@@ -295,6 +295,9 @@ li.login a:hover {
 	font-size: 1.1em;
 	padding-top: 15px;
 	text-align: justify;
+}
+
+.post-entry p {
 	text-indent: 2em;
 }
 

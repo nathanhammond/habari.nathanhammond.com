@@ -20,9 +20,9 @@ class Version
 	const HABARI_VERSION = '0.7-alpha';
 
 	// This string contains the URL to the Habari SVN repository used for this working copy or export
-	const HABARI_SVN_HEAD_URL = '$HeadURL$';
+	const HABARI_SVN_HEAD_URL = '$HeadURL: http://svn.habariproject.org/habari/trunk/htdocs/system/classes/version.php $';
 	// This string contains the SVN revision this file was last updated in
-	const HABARI_SVN_REV = '$Revision$';
+	const HABARI_SVN_REV = '$Revision: 3539 $';
 
 	/**
 	 * Get the database version
