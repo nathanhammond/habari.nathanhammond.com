@@ -1,0 +1,16 @@
+AddHandler fcgid-script .php 
+FCGIWrapper "/dh/cgi-system/php56.cgi" .php
+
+redirect 301 /jquery-conference-2008 /jquery-camp-2008
+
+### HABARI START
+RewriteEngine On
+
+RewriteRule ^(.*/)?\.svn/ - [F,L]
+ErrorDocument 403 "Access Forbidden"
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteBase /
+RewriteRule . index.php [PT]
+### HABARI END
